@@ -51,7 +51,8 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
 11. Erkläre die folgenden Schlüsselwörter: `super`, `this`
  *  + Schlüsselwort `super`: man verwendet diesen, um Konstruktoren aus der Oberklasse
       zu verwenden und um die Methode der Oberklasse aufzurufen.
-    + Schlüsselwort `this`: dient dazu, dass sich ein Objekt in einer Methode selbst ansprechen kann.
+    + Schlüsselwort `this`: dient dazu, dass sich ein Objekt in einer Methode selbst ansprechen kann. 
+      Wenn z.B. parameter und lokale Variablen den selben Namen haben.
       
 12. Für was dient der `instanceof` Operator. Gib ein sinnvolles Beispiel.
  *  Bestimmung von Instanzenen auf ihren Typ während der Laufzeit, da z.B. durch typcasting die 
