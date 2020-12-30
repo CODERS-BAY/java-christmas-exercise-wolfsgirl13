@@ -26,12 +26,16 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
    
 6. Wozu dient die Vererbung?
  * Es wird zwischen Super- und Subklasse unterschieden. Eine Superklasse vererbt an die Subklasse. Man vererbt mit dem Schlüsselwort extends um Beispiel
-   Methoden und Variablen (außer mit dem Schlüsselwort private). Es gibt in Java keine Mehrfachvererbung
+   Methoden und Variablen (außer mit dem Schlüsselwort private). 
+   
 7. Kann in Java von mehreren Klassen geerbt werden? Wenn ja wie?
- * 
+ * In Java gibt es eingentlich nur Einfachvererbung, Eine Klasse kann maximal von einer
+   anderen Klasse abgeleitet werden.
+   Mit Hilfe von Interfaces wurde eine restriktive Art der Mehrfachvererbung geschaffen.
+   
 8. Welche Vererbungshierarchien kennst du? (Ein Bild reicht aus)
   * 
-9. Was beudeted Casten und wie ist die Syntax in Java dafür?
+9. Was bedeuted Casten und wie ist die Syntax in Java dafür?
   * 
 10. Was ist der Unterschied zwischen explizieten und implizieten Typecasting?
  * 
