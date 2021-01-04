@@ -3,11 +3,11 @@ package model;
 public class Address {
     private final String city;
     private final int postcode;
-    private final String houseNumber;
+    private final int houseNumber;
     private final String street;
     private final String country;
 
-    public Address (String city, int postcode, String houseNumber, String street, String country) {
+    public Address (String city, int postcode, int houseNumber, String street, String country) {
         this.city = city;
         this.postcode = postcode;
         this.houseNumber = houseNumber;
@@ -23,7 +23,7 @@ public class Address {
         return postcode;
     }
 
-    public String getHouseNumber () {
+    public int getHouseNumber () {
         return houseNumber;
     }
 

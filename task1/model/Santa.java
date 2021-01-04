@@ -2,9 +2,19 @@ package model;
 
 public class Santa {
 
+	private	int password;
+
+
 	public Santa() {
-		int password;
+
 		// TODO Auto-generated constructor stub
 	}
 
+	public int getPassword () {
+		return password;
+	}
+
+	public void setPassword (int password) {
+		this.password = password;
+	}
 }

@@ -1,14 +1,16 @@
 package view;
 
+import java.util.Scanner;
+
 public class Console {
 
 
-
+	private Scanner scanner;
 
 	/*
 	 * the console dialog comes here
 	 */
-	public void dialog() {
+	public void dialog () {
 		System.out.println("Please login:");
 		System.out.println("1. Santa");
 		System.out.println("2. Elf");
@@ -16,6 +18,24 @@ public class Console {
 
 	}
 
+	public void childLogin () {
+		System.out.println("Hallo, was möchtest Du machen?");
+		System.out.println("1. einloggen");
+		System.out.println("2. neu anmelden");
+		System.out.println("3. zurück zum Hauptmenü");
+	}
+
+	public void santaLogin() {
+		System.out.println("Herzlich willkommen Santa! Was möchtest Du gerne machen?");
+		System.out.println("1. Kinder finden nach Namen");
+		System.out.println("2. Kinder und deren Wunschgeschenk");
+		System.out.println("3. Ist der Schlitten beladen?");
+		System.out.println("4. Zurück zum Hauptmenü");
 
 
+	}
 }
+
+
+
+

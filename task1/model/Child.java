@@ -1,16 +1,51 @@
 package model;
 
-public class Child {
+import java.util.Scanner;
 
-	public Child() {
-		String firstName;
-		String secondName;
-		String sex;
-		String address;
-		int password;
+public class Child extends Address {
 
+	private String firstName;
+	private String secondName;
+	private String sex;
+	private int password;
 
-		// TODO Auto-generated constructor stub
+	public Child (String city, int postcode, int houseNumber, String street, String country, String firstName, String secondName, String sex, int password) {
+		super (city, postcode, houseNumber, street, country);
+		this.firstName = firstName;
+		this.secondName = secondName;
+		this.sex = sex;
+		this.password = password;
 	}
 
+	public String getFirstName () {
+		return firstName;
+	}
+
+	public void setFirstName (String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getSecondName () {
+		return secondName;
+	}
+
+	public void setSecondName (String secondName) {
+		this.secondName = secondName;
+	}
+
+	public String getSex () {
+		return sex;
+	}
+
+	public void setSex (String sex) {
+		this.sex = sex;
+	}
+
+	public int getPassword () {
+		return password;
+	}
+
+	public void setPassword (int password) {
+		this.password = password;
+	}
 }
