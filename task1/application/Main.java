@@ -65,7 +65,7 @@ public class Main {
 		Child child1 = new Child("Wien",1234,5,"Waldstraße","Austria","Maria",
 				"Maier","female",111);
 
-		Elf elf1 = new Elf ("fly","wish list","Trixi","northstreet",2,"northpole",123);
+		Elf elf1 = new Elf ("fly","wish list","Trixi","northstreet",2,"polarkreis",123);
 
 	}
 
