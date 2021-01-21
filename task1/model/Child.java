@@ -48,4 +48,14 @@ public class Child extends Address {
 	public void setPassword (int password) {
 		this.password = password;
 	}
+
+	@Override
+	public String toString () {
+		return "Child{" +
+				"firstName='" + firstName + '\'' +
+				", secondName='" + secondName + '\'' +
+				", sex='" + sex + '\'' +
+				", password=" + password +
+				'}';
+	}
 }

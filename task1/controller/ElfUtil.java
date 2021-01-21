@@ -1,15 +1,16 @@
 package controller;
 
-import model.Sledge;
+import model.Sledge;  //Eigenschaften vom Elf
 
 public class ElfUtil extends Sledge {
 
+
 	private String skill;
-	private int password;
+	private String competence;
 
-	public ElfUtil() {
-
-		// TODO Auto-generated constructor stub
+	public ElfUtil (String skill, String competence) {
+		this.skill = skill;
+		this.competence = competence;
 	}
 
 	public String getSkill () {
@@ -20,14 +21,21 @@ public class ElfUtil extends Sledge {
 		this.skill = skill;
 	}
 
-	public int getPassword () {
-		return password;
+	public String getCompetence () {
+		return competence;
 	}
 
-	public void setPassword (int password) {
-		this.password = password;
+	public void setCompetence (String competence) {
+		this.competence = competence;
 	}
 
+	@Override
+	public String toString () {
+		return "ElfUtil{" +
+				"skill='" + skill + '\'' +
+				", competence='" + competence + '\'' +
+				'}';
+	}
 	/*
 	 * sledge should be prepared here
 	 */

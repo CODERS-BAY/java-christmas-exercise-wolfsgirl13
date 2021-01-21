@@ -1,25 +1,31 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Presents {
 
-	private String name;
+	private String presentsName;
 
 	public Presents() {
-
+		ArrayList<String> presentsName = new ArrayList<String> ();
+		presentsName.add ("Modellauto");
+		presentsName.add ("Barbiepuppe");
+		presentsName.add ("Puppenküche");
+		presentsName.add ("Carrerbahn");
 
 		// TODO Auto-generated constructor stub
 	}
 
 	public String getName () {
-		return name;
+		return presentsName;
 	}
 
 	public void setName (String name) {
-		this.name = name;
+		this.presentsName = presentsName;
 	}
 
 	@Override
 	public String toString () {
-		return "Present{name=" + name +'}';
+		return "Present{name=" + presentsName +'}';
 	}
 }
